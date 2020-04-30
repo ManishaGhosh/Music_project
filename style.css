@@ -1,0 +1,131 @@
+body
+{
+  background-color:#b1f2f2;
+  height: 100%;
+  width:100%;
+  margin:0;
+  justify-content: center;
+}
+#intro
+{
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 2vw;
+  margin-left: 5%;
+  margin-top: 1%;
+  margin-right: 5%;
+  padding: 2%;
+  background-color: white;
+}
+
+#music
+{
+
+  border-radius: 20px;
+  margin-left: 5%;
+  margin-top: 1%;
+  background-color: white;
+  width:90%;
+  display: flex;
+}
+
+#left
+{
+
+    width:80%;
+    float: left;
+
+    background-color: white;
+    border-radius: 20px;
+
+    color: #dee3e3;
+    height:20vh;
+}
+#tap
+{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    font-size: 3vw;
+
+}
+#right
+{
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    float:right;
+    width:1vw;
+    height: 1vh;
+    margin-left: 10%;
+
+}
+#right > p
+{
+    font-size: 2vw;
+}
+#p1
+{color: green;
+}
+#p2
+{
+  color: red;
+}
+
+#keys
+{
+background-color: white;
+  width: 90%;
+  height:40vh;
+  border-radius: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+#keys > div
+{
+
+  width: 14%;
+  margin:  1%;
+  border-radius: 10px;
+}
+
+.aa
+{
+  height: 15vh;
+  background-color: #FF69B4;
+  max-width: 2%;
+}
+
+#a
+{
+  background-color:#FF69B4;
+}
+#b
+{
+  background-color:	#FFA07A;
+}
+#c
+{
+  background-color:	#E6E6FA;
+}
+#d
+{
+  background-color:#FFE4C4;
+}
+#e
+{
+  background-color:#87CEEB;
+}
+#f
+{
+  background-color:	#B0C4DE;
+}
+#g
+{
+  background-color:	#90EE90;
+}
